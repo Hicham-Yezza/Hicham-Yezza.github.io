@@ -6,3 +6,22 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 .item h3 a span{font:400 15px var(--sans);color:var(--accent)}.social-links+ .quiet{margin-top:28px}.side-facts p{color:var(--muted);font-size:14px}
 .feature .feature-title{font-size:clamp(38px,4.2vw,54px);letter-spacing:-.045em;margin:6px 0 14px;color:var(--ink)}
+/* Larger reading sizes */
+body{font-size:17px}
+nav a{font-size:15px}
+.eyebrow,.overline{font-size:12.5px}
+.feature-kicker,.meta,.item-type{font-size:12.5px}
+.feature p:not(.feature-kicker){font-size:16.5px;line-height:1.75}
+.item p{font-size:16px}
+.item h3{font-size:25px}
+.hero-copy{font-size:18px}
+.hero-aside p{font-size:16px}
+.hero-aside .aside-head{font-size:12.5px}
+.text-link,.feature-link,.arrow{font-size:15px}
+.button{font-size:15px}
+.social-links a{font-size:15px}
+.side-facts p,.side-facts ul{font-size:16px}
+.about-grid p{font-size:17px}
+.quiet{font-size:15px}
+.foot-inner p,.foot-links a{font-size:14px}
+@media(max-width:700px){nav a{font-size:14.5px}.item h3{font-size:22px}.feature p:not(.feature-kicker){font-size:16.5px}}
