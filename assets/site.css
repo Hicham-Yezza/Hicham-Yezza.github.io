@@ -25,3 +25,15 @@ nav a{font-size:15px}
 .quiet{font-size:15px}
 .foot-inner p,.foot-links a{font-size:14px}
 @media(max-width:700px){nav a{font-size:14.5px}.item h3{font-size:22px}.feature p:not(.feature-kicker){font-size:16.5px}}
+/* Photos */
+.portrait{display:block;width:100%;height:auto;margin:0 0 24px}
+.hero-aside .portrait{margin:-34px -32px 26px;width:calc(100% + 64px);max-width:none}
+.photo-grid{display:grid;grid-template-columns:1.05fr 1fr;gap:22px;padding-top:44px}
+.photo-grid figure{margin:0}
+.photo-grid img{display:block;width:100%;height:auto;aspect-ratio:3/2;object-fit:cover}
+.photo-grid figcaption{font-size:13.5px;color:var(--muted);margin-top:10px}
+@media(max-width:950px){.hero-aside .portrait{margin:-26px -26px 22px;width:calc(100% + 52px)}}
+@media(max-width:700px){.photo-grid{grid-template-columns:1fr;padding-top:32px}.hero-aside .portrait{margin:-24px -24px 20px;width:calc(100% + 48px)}.side-facts .portrait{max-width:320px}}
+.photo-grid{grid-template-columns:1fr 1fr}
+.hero-aside .portrait{aspect-ratio:4/5;object-fit:cover;object-position:50% 15%;height:auto}
+@media(max-width:700px){.photo-grid{grid-template-columns:1fr}}
